@@ -2,7 +2,6 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { Suspense } from "react";
 import { OrbitControls } from "@react-three/drei";
-import { useSpring } from '@react-spring/three';
 
 const buttons = [
   {
